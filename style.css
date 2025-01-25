@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(252, 212, 162);
+}
+
+h1 {
+    margin-block-start: 0.67em;
+    margin-block-end: 0.57em;
+}
+
+h2 {
+    margin-block-start: 0.22em;
+    margin-block-end: 0.22em;
+}
+
+button{
+    font-size: large;
+    padding: 20px;
+    background-color: chocolate;
+    color: rgba(93, 47, 1, 0.773);
+    border: 2px dashed rgba(93, 47, 1, 0.773);
+    border-radius: 50px;
+}
+
+#play .hove:hover{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+  color: #000000;
+  cursor: pointer;
+
+    
+}
+
+#board{
+    background-color: chocolate;
+    border: 10px solid rgba(93, 47, 1, 0.773);
+
+    height: 540px;
+    width: 630px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    cursor: pointer;
+
+    background-color: rgb(252, 212, 162);
+    /* background-color: white; */
+    border-radius: 50%;
+    border: 5px solid rgba(93, 47, 1, 0.773);
+    
+}
+
+.red-piece {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.yellow-piece {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
